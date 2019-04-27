@@ -10,11 +10,6 @@
   overflow-wrap: break-word;
 }
 
-.sloppy svg {
-  max-width: 100%;
-  height: auto;
-}
-
 .sloppy :focus {
   outline-color: currentColor;
   outline-style: groove;
@@ -26,7 +21,7 @@
 .noki { font-size: 1rem }
 .yoki { font-size: 1.62rem }
 .hiki { font-size: 2.62rem }
-.fasho {}
+.fasho { font-weight: bold }
 
 .freestyle {
   box-sizing: border-box;
@@ -40,24 +35,9 @@
   padding: .5rem;
 }
 
-.smash {
-  max-width: 19em;
-}
-
 .waiting { display: inline-block }
 .fabric { display: table }
-
 .inhale { margin-bottom: 1rem }
 .exhale { margin-bottom: .5rem }
-.exhale2 { margin-bottom: 1.5rem }
-.exhale3 { margin-bottom: 2.5rem }
+.exhales { margin-bottom: 1.5rem }
 .karma { padding: 1rem }
-
-.unseen {
-  font-size: 0;
-  margin: 0;
-  padding: 0;
-}
-
-.bae-dream{color:#f96!important;background:#415!important}
-.bae-gleam{color:#415!important;background:#f96!important}
